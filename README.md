@@ -1,2 +1,2 @@
 # Sprites
-SASS Sprites mixin
+Compass 雪碧图 @mixin

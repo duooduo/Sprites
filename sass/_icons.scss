@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@import "compass/utilities/sprites";
+
+// 设置生成的css代码中是否加入固定宽高属性
+// $icon-sprite-dimensions: true;
+
+// 关闭hover伪类
+$disable-magic-sprite-selectors: true;
+
+// 修改合图布局方式 默认Vertical
+$expression-layout: horizontal; // 水平
+// $icon-layout: diagonal; // 斜对角线布局
+// $icon-layout: smart; // 最小合图布局
+
+
+@import "expression/*.png";
+@include all-expression-sprites();
+
+// 自命名class名的样式引用
+.class1 {
+	@include expression-sprite("Expression101");
+}

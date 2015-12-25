@@ -1,0 +1,27 @@
+@charset "UTF-8";
+@import "compass/utilities/sprites";
+@import "compass/css3/background-size"; 
+
+@mixin sprite2x($name, $hover: false, $dimensions: true, $pad: 0){
+	@if $pad > 0 {
+		padding: $pad;
+	}
+	$pos: sprite-position($sprites, $name, -$pad * 2, -$pad * 2);
+
+	@if $dimensions == true {
+		height: ceil(image-height(sprite-file($sprites, $name)) / 2);
+		width: ceil(image-width(sprite-file($sprites, $name)) / 2);
+	}
+
+	background-image: $url;
+	background-position: nth($pos, 1) / 2 nth($pos, 2) / 2;
+	background-size: ceil(image-width(sprite-path($sprites)) / 2) ceil(image-height(sprite-path($sprites)) / 2);
+
+	@if $hover == true {
+		$name_hover : $name + _hover;
+		&:hover {
+			$pos: sprite-position($sprites, $name_hover, -$pad * 2, -$pad * 2);
+			background-position: nth($pos, 1) / 2 nth($pos, 2) / 2;
+		}
+	}
+}

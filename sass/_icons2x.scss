@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@import "sprites2x";
+$sprites: sprite-map("icon/*.png");
+$supported-browsers: chrome;
+$url: sprite-url($sprites);
+
+a { display: block;}
+.ico-01 {
+	@include sprite2x(Expression01, true);
+}
+.ico-02 {
+	@include sprite2x(Expression02);
+}
+.ico-03 {
+	@include sprite2x(Expression03);
+}
+.ico-04 {
+	@include sprite2x(Expression04);
+}
+.ico-05 {
+	@include sprite2x(Expression05);
+}
+.ico-06 {
+	@include sprite2x(Expression06);
+}

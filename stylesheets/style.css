@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/*！ compass 合图 */
+.expression-sprite, .expression-Expression101, .expression-Expression102, .expression-Expression103, .expression-Expression104, .expression-Expression105, .expression-Expression106, .expression-Expression107, .expression-Expression108, .expression-Expression109, .expression-Expression110, .expression-Expression111, .expression-Expression112, .class1 { background-image: url('../images/expression-s1210eae5dd.png'); background-repeat: no-repeat; }
+
+.expression-Expression101 { background-position: 0 0; }
+
+.expression-Expression102 { background-position: -60px 0; }
+
+.expression-Expression103 { background-position: -120px 0; }
+
+.expression-Expression104 { background-position: -180px 0; }
+
+.expression-Expression105 { background-position: -240px 0; }
+
+.expression-Expression106 { background-position: -300px 0; }
+
+.expression-Expression107 { background-position: -360px 0; }
+
+.expression-Expression108 { background-position: -420px 0; }
+
+.expression-Expression109 { background-position: -480px 0; }
+
+.expression-Expression110 { background-position: -540px 0; }
+
+.expression-Expression111 { background-position: -600px 0; }
+
+.expression-Expression112 { background-position: -660px 0; }
+
+.class1 { background-position: 0 0; }
+
+/*! 2倍 合图 */
+a { display: block; }
+
+.ico-01 { height: 30px; width: 30px; background-image: url('../images/icon-s2e238064c2.png'); background-position: 0 0; background-size: 30px 210px; }
+.ico-01:hover { background-position: 0 -30px; }
+
+.ico-02 { height: 30px; width: 30px; background-image: url('../images/icon-s2e238064c2.png'); background-position: 0 -60px; background-size: 30px 210px; }
+
+.ico-03 { height: 30px; width: 30px; background-image: url('../images/icon-s2e238064c2.png'); background-position: 0 -90px; background-size: 30px 210px; }
+
+.ico-04 { height: 30px; width: 30px; background-image: url('../images/icon-s2e238064c2.png'); background-position: 0 -120px; background-size: 30px 210px; }
+
+.ico-05 { height: 30px; width: 30px; background-image: url('../images/icon-s2e238064c2.png'); background-position: 0 -150px; background-size: 30px 210px; }
+
+.ico-06 { height: 30px; width: 30px; background-image: url('../images/icon-s2e238064c2.png'); background-position: 0 -180px; background-size: 30px 210px; }
